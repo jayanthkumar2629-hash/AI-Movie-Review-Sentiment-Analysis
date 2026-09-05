@@ -1,6 +1,6 @@
 from transformers import pipeline
 
-model_path = "./models"
+model_path = "./models/distilbert-sentiment"
 
 classifier = pipeline(
     "sentiment-analysis",
