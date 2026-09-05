@@ -16,3 +16,4 @@ def predict_sentiment(review):
     confidence = result["score"]
 
     return label, confidence
+    print(predict_sentiment("The movie was absolutely fantastic and amazing!"))
